@@ -1,0 +1,10 @@
+#This is an Acronym Generator
+#12-02-17
+#Brandon Dunn
+
+
+rand_String=input("Enter a string: ") #This is my string
+rand_String=rand_String.upper()
+rand_List=rand_String.split()  #Split String into list
+for i in rand_List: #Cycle through list
+    print(i[0], end="")  #Print first letter while eliminating new line
